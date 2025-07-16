@@ -23,7 +23,7 @@ export default function Contact() {
                 href="mailto:md.shoaib.i.makandar@gmail.com"
                 className="text-primary hover:underline"
               >
-                md.shoaib.i.makandar@gmail.com
+                malikkiran413@gmail.com
               </a>
             </span>
           </div>
@@ -38,7 +38,7 @@ export default function Contact() {
           <div className="flex items-center gap-3">
             <FaMapMarkerAlt className="text-primary" />
             <span>
-              <strong>Location:</strong> Belagavi, Karnataka, India
+              <strong>Location:</strong> Bengaluru, Karnataka, India
             </span>
           </div>
         </div>

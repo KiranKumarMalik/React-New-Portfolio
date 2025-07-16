@@ -42,9 +42,12 @@ export default function Navbar({ toggleTheme, isDark }) {
       `}
     >
       {/* Brand */}
-      <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md whitespace-nowrap">
-        Kiran
-      </h1>
+      <div className="flex items-center space-x-2">
+  <img src="kiran_full_logo.png" alt="Kiran Logo" className="h-20 w-50 sm:h-50 sm:w-100" />
+  {/* <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md whitespace-nowrap">
+    Kiran
+  </h1> */}
+</div>
 
       {/* Desktop Nav */}
       <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700 dark:text-gray-300 ml-auto">
