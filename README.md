@@ -1,4 +1,4 @@
-# Mohammed Shoaib's Portfolio Website
+# Kiran's Portfolio Website
 
 Welcome to my personal portfolio built using **React + Tailwind CSS**, designed to showcase my professional experience, skills, certifications, and projects in a modern, visually engaging, and performant manner.
 
@@ -90,18 +90,18 @@ public/
 
 ---
 
-## 🌍 Live Demo
+<!-- ## 🌍 Live Demo
 
 **🔗 [madycloud.vercel.app](https://madycloud.vercel.app)**  
 > Hosted on Vercel with CDN optimization and HTTPS
 
----
+--- -->
 
 ## 📥 Installation & Setup
 
 ```bash
 # Clone the repo
-git clone https://github.com/MaDycloud-MD/portfolio.git
+git clone https://github.com/KiranKumarMalik/React-New-Portfolio.git
 cd portfolio
 
 # Install dependencies
@@ -125,7 +125,7 @@ npm start
 
 - Gradient inspiration: Gemini UI + Dribbble
 - Logo icons: [Techicons.dev](https://techicons.dev)
-- Built with 💛 by [Mohammed Shoaib. M](https://linkedin.com/in/myselfmd)
+- Built with 💛 by [Kiran](https://linkedin.com/in/myselfmd)
 
 ---
 
