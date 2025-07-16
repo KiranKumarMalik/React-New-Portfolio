@@ -41,13 +41,13 @@ export default function Hero() {
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
       {/* LinkedIn */}
       <a
-        href="https://linkedin.com/in/myselfmd"
+        href="https://www.linkedin.com/in/kirankm7/"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-110 transition-transform duration-300"
       >
         <img
-          src="/logos/linkedin.svg"
+          src="/logos/linkedin1.svg"
           alt="LinkedIn"
           className="w-6 h-6 sm:w-7 sm:h-7"
         />
@@ -55,7 +55,7 @@ export default function Hero() {
 
       {/* Email */}
       <a
-        href="mailto:md.shoaib.i.makandar@gmail.com"
+        href="mailto:malikkiran413@gmail.com"
         className="hover:scale-110 transition-transform duration-300"
       >
         <img
@@ -67,7 +67,7 @@ export default function Hero() {
 
       {/* GitHub */}
       <a
-        href="https://github.com/MaDycloud-MD"
+        href="https://github.com/KiranKumarMalik"
         target="_blank"
         rel="noreferrer"
         className="hover:scale-110 transition-transform duration-300"
@@ -76,6 +76,62 @@ export default function Hero() {
           src="/logos/github2.svg"
           alt="GitHub"
           className="w- h-6 sm:w-7 sm:h-7"
+        />
+      </a>
+
+      {/* Facebook */}
+      <a
+        href="https://linkedin.com/in/myselfmd"
+        target="_blank"
+        rel="noreferrer"
+        className="hover:scale-110 transition-transform duration-300"
+      >
+        <img
+          src="/logos/facebook.svg"
+          alt="LinkedIn"
+          className="w-6 h-6 sm:w-7 sm:h-7"
+        />
+      </a>
+
+      {/* Instagram */}
+      <a
+        href="https://www.instagram.com/kiran.tech_official/"
+        target="_blank"
+        rel="noreferrer"
+        className="hover:scale-110 transition-transform duration-300"
+      >
+        <img
+          src="/logos/instagram.svg"
+          alt="LinkedIn"
+          className="w-6 h-6 sm:w-7 sm:h-7"
+        />
+      </a>
+
+      {/* youtube */}
+      <a
+        href="https://www.youtube.com/@devhub_cloud"
+        target="_blank"
+        rel="noreferrer"
+        className="hover:scale-110 transition-transform duration-300"
+      >
+        <img
+          src="/logos/youtube.svg"
+          alt="LinkedIn"
+          className="w-6 h-6 sm:w-7 sm:h-7"
+        />
+      </a>
+
+      {/* twitter */}
+      <a
+        href="https://x.com/techie_Mr_kiran"
+        target="_blank"
+        rel="noreferrer"
+        className="hover:scale-110 transition-transform duration-300"
+      >
+        <img
+          src="/logos/twitter.svg"
+          alt="LinkedIn"
+          className="w-6 h-6 sm:w-7 sm:h-7"
         />
       </a>
     </div>
