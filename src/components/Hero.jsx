@@ -12,20 +12,20 @@ export default function Hero() {
   <div className="text-center md:text-left relative z-10 md:w-2/3">
     
    <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 drop-shadow-[0_1px_12px_rgba(168,85,247,0.45)] animated-gradient">
-      Mohammed Shoaib. Makandar
+      Kiran Kumar Malik
     </h1>
 
 
     <div className="mt-2 text-2xl font-semibold text-gray-800 dark:text-gray-200 h-10">
       <TypeAnimation
         sequence={[
-          'DevOps Engineer',
+          'QA Engineer @Omnicom',
           2000,
-          'Cloud Specialist',
+          'Ex-DevOps Engineer',
           2000,
-          'Oracle Certified',
+          'AWS Certified',
           2000,
-          'CI/CD Enthusiast',
+          'Cloud Enthusiast',
           2000,
         ]}
         wrapper="span"
@@ -103,7 +103,7 @@ export default function Hero() {
   <div className="relative w-40 h-40 sm:w-48 sm:h-48 z-10 transform md:translate-x-20 md:translate-y-8">
     <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-yellow-300 blur-xl opacity-30 animate-pulse"></div>
     <img
-      src="/Profile1.jpg"
+      src="/kiran_pp.jpg"
       alt="Shoaib"
       className="relative z-10 w-full h-full rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-xl"
     />

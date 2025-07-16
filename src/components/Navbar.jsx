@@ -43,7 +43,7 @@ export default function Navbar({ toggleTheme, isDark }) {
     >
       {/* Brand */}
       <h1 className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-rose-500 text-transparent bg-clip-text drop-shadow-md whitespace-nowrap">
-        MaDycloud
+        Kiran
       </h1>
 
       {/* Desktop Nav */}
