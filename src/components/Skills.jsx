@@ -75,7 +75,6 @@ const skillGroups = [
       { label: "Seaborn", logo: "/logos/seaborn.svg" },
       { label: "Pytest", logo: "/logos/pytest.svg" },
       { label: "Pytorch", logo: "/logos/pytorch.svg" },
-      { label: "Pyjokes", logo: "/logos/seaborn.svg" },
     ],
   },
   {
@@ -83,7 +82,7 @@ const skillGroups = [
     title: "Tools & Platforms",
     items: [
       { label: "Git", logo: "/logos/git.svg" },
-      { label: "GitHub", logo: "/logos/github.svg" },
+      { label: "GitHub", logo: "/logos/github2.svg" },
       { label: "Vim", logo: "/logos/vim.svg" },
       { label: "Nano", logo: "/logos/nano.svg" },
       { label: "Putty", logo: "/logos/putty.svg" },

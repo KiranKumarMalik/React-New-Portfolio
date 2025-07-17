@@ -8,8 +8,8 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "City Wellness – Smart Reporting and Monitoring System",
-      github: "https://github.com/Tasneemgokak/SmartCitywellness.git",
+      title: "College ERP System",
+      github: "https://github.com/KiranKumarMalik/College-ERP",
       details: [
         "Issue: There were delays and unsanitary conditions as a result of the lack of real-time visibility, prioritisation, and citizen engagement in urban waste collection.",
         "Take action: Created a full-stack web application that increased citizen participation by 70% by enabling real-time reporting of waste issues with voice, image, and GPS support.",
@@ -34,8 +34,8 @@ export default function Projects() {
       ]
     },
     {
-      title: "Netflix Clone with DevSecOps",
-      github: "",
+      title: "Doctor Appointment Management System",
+      github: "https://github.com/KiranKumarMalik/Doctor-Appointment-System-using-Django-and-gmail-SMTP",
       details: [
         "Problem: Manual deployments lacked consistency and security validation",
         "Action: Designed and automated a CI/CD pipeline using Jenkins, integrating SonarQube and Trivy for static and container security scanning.",
@@ -65,7 +65,7 @@ export default function Projects() {
     },
     {
       title: "Face Recognition with AWS Rekognition",
-      github: "https://github.com/MaDycloud-MD/Automated-Face-Recognition-System-Deployment-using-AWS-Rekognition.git",
+      github: "https://github.com/KiranKumarMalik/Facial-Recognition-App-using-AWS-rekognition-and-Python",
       details: [
         "Problem: Existing facial recognition systems were not scalable or cloud-optimized.",
         "Action: Designed and deployed a secure architecture using AWS Rekognition, S3, Lambda, DynamoDB, and IAM.",
@@ -83,8 +83,8 @@ export default function Projects() {
     },
 
     {
-      title: "2048 Game Docker Deployment",
-      github: "https://github.com/MaDycloud-MD/2048_UsingDocker_AWS.git",
+      title: "JioHotstar Application using Django",
+      github: "https://github.com/KiranKumarMalik/Jiohotstar-Application-using-Django",
       details: [
         "Problem: Web app deployments were error-prone and environment-dependent.",
         "Action: Dockerized the game and deployed using AWS Elastic Beanstalk, enabling rapid, scalable hosting with container-based architecture.",
@@ -100,9 +100,9 @@ export default function Projects() {
       ]
     },
     {
-        title: "Book Review System – Cloud-Based Web Platform",
+        title: "Linux Server setup and configuration",
         live: "https://madycloud-md.github.io/Book-Review-System/",
-        github: "https://github.com/MaDycloud-MD/Book-Review-System.git",
+        github: "https://github.com/KiranKumarMalik/Linux-Server-Setup-Configuration",
         details: [
           "Problem: Traditional book recommendation platforms often lack community engagement, scalability, and personalized insights.",
           "Action:",
