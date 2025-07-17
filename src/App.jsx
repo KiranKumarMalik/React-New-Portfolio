@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Volunteering from './components/Volunteering';
+import Training from './components/Training';
 
 function App() {
   const [dark, setDark] = useState(true);
@@ -24,6 +25,7 @@ function App() {
         <Experience />
         <Education />
         <Skills />
+        <Training />
         <Projects />
         <Certifications />
         <Volunteering />
