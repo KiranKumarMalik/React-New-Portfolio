@@ -21,9 +21,10 @@ export default function Navbar({ toggleTheme, isDark }) {
   const navLinks = [
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
     { name: 'Education', href: '#education' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Training & Internship', href: '#trainings' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' },
   ];

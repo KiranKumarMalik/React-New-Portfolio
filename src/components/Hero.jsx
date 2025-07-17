@@ -23,7 +23,7 @@ export default function Hero() {
           2000,
           'Ex-DevOps Engineer',
           2000,
-          'AWS Certified',
+          'AWS & Azure Certified',
           2000,
           'Cloud Enthusiast',
           2000,
@@ -156,7 +156,7 @@ export default function Hero() {
   </div>
 
 
-  <div className="relative w-40 h-40 sm:w-48 sm:h-48 z-10 transform md:translate-x-20 md:translate-y-8">
+  <div className="relative w-40 h-40 sm:w-48 sm:h-48 z-10 transform md:translate-x-25 md:translate-y-8">
     <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-yellow-300 blur-xl opacity-30 animate-pulse"></div>
     <img
       src="/kiran_pp.jpg"

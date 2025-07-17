@@ -5,33 +5,28 @@ export default function Certifications() {
   const fade = useScrollFadeIn();
   const certs = [
     {
-      name: "Oracle Fusion Cloud Applications ERP Certified Foundations Associate",
-      logo: "/certified_logos/OMBPERPCFA1.png",
-      url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=63A9C307421DA9E029F6439932D082379FF624B815214AB311EB6F4FBFA2754D",
+      name: "AWS Certified: Cloud Practitioner Foundational",
+      logo: "/certified_logos/awscp.jpg",
+      url: "https://www.credly.com/badges/827885ff-09b4-475f-8536-1af22d3fa8a3/linked_in_profile",
     },
     {
-      name: "Oracle Fusion Cloud Applications CX Certified Foundations Associate",
-      logo: "/certified_logos/OMBPCXCFA1.png",
-      url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D123AB165397D80B055C0277A5ACC5CBD0DB432D050DC324AB26E2DD058AD2E7",
+      name: "AWS Certified Solutions Architect - Associate",
+      logo: "/certified_logos/awssolution.jpg",
+      url: "https://www.credly.com/badges/6144acf0-4472-4e34-b9ec-c83a38e6bf8d/linked_in_profile",
     },
     {
-      name: "Oracle Fusion Cloud Applications SCM Certified Foundations Associate",
-      logo: "/certified_logos/OMBPSCMCFA1.png",
-      url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B6DB4FCE8EB45465222C782AE0A9B5D38C372BD4757DB6F3E8248E2C475BE885",
+      name: "Microsoft Certified: Azure Fundamentals",
+      logo: "/certified_logos/azure_fund.png",
+      url: "https://www.credly.com/badges/54545019-04cb-4d12-a445-be049b690ba3/linked_in_profile",
     },
     {
-      name: "Oracle Fusion Cloud Applications HCM Certified Foundations Associate",
-      logo: "/certified_logos/OMBPHCMCFA1.png",
-      url: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D5B5689ACFCB6631F44DE9619D938A1128C91F799853ED6BFAACA86A842A417A",
-    },
-    {
-      name: "Diploma in Office Automation",
-      logo: "/certified_logos/DOA.jpg",
-      url: "https://drive.google.com/file/d/14-ZVIGmb0FwR24SSacIve5zVnQ9j9dhy/view?usp=sharing",
+      name: "Microsoft Certified: Azure AI Fundamentals",
+      logo: "/certified_logos/ai_fund.png",
+      url: "https://www.credly.com/badges/ff45cf38-6328-4f00-a5e7-e60a8a5c6086/linked_in_profile",
     },
     {
       name: "AWS Certified Cloud Practitioner (in-progress)",
-      logo: "/logos/aws.svg",
+      logo: "/certified_logos/salesforce_admin.png",
       url: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
     },
   ];

@@ -38,7 +38,7 @@ export default function Training() {
   ];
 
   return (
-    <section id="experience" className="py-12">
+    <section id="trainings" className="py-12">
       <h2 className="text-3xl text-center font-bold mb-6">Training and Internships</h2>
       <div className="grid md:grid-cols-1 gap-6">
         {trainings.map((trn, idx) => (

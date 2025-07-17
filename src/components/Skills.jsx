@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import useScrollFadeIn from '../utils/useScrollFadeIn';
 
-const categories = ["All", "Programming", "DevOps", "Databases", "Tools & Platforms"];
+const categories = ["All", "Programming", "DevOps", "Web Development", "Databases", "Libraries", "Tools & Platforms"];
 
 const skillGroups = [
   {
     category: "Programming",
     title: "Programming Languages",
     items: [
-      { label: "Java", logo: "/logos/java.svg" },
       { label: "Python", logo: "/logos/python.svg" },
-      { label: "C", logo: "/logos/c.svg" },
+      { label: "Java", logo: "/logos/java.svg" },
+      { label: "Javascript", logo: "/logos/javascript.svg" },
     ],
   },
   {
@@ -19,15 +19,16 @@ const skillGroups = [
     items: [
       { label: "AWS", logo: "/logos/aws.svg" },
       { label: "Azure", logo: "/logos/azure.svg" },
+      { label: "Google Cloud", logo: "/logos/google-cloud.svg" },
       { label: "Docker", logo: "/logos/docker.svg" },
       { label: "Kubernetes", logo: "/logos/kubernetes.svg" },
       { label: "Terraform", logo: "/logos/terraform.svg" },
       { label: "Jenkins", logo: "/logos/jenkins.svg" },
       { label: "GitLab", logo: "/logos/gitlab.svg" },
-      { label: "ArgoCD", logo: "/logos/argocd.svg" },
-      { label: "Prometheus", logo: "/logos/prometheus.svg" },
+      // { label: "ArgoCD", logo: "/logos/argocd.svg" },
+      // { label: "Prometheus", logo: "/logos/prometheus.svg" },
       { label: "Grafana", logo: "/logos/grafana.svg" },
-      { label: "Helm", logo: "/logos/helm.svg" },
+      // { label: "Helm", logo: "/logos/helm.svg" },
       { label: "Ansible", logo: "/logos/ansible.svg" },
       { label: "Nginx", logo: "/logos/nginx.svg" },
       { label: "Apache", logo: "/logos/apache.svg" },
@@ -35,13 +36,46 @@ const skillGroups = [
     ],
   },
   {
+    category: "Web Development",
+    title: "Web Development",
+    items: [
+      { label: "HTML", logo: "/logos/html5.svg" },
+      { label: "CSS", logo: "/logos/css3.svg" },
+      { label: "Bootstrap", logo: "/logos/bootstrap.svg" },
+      { label: "Javascript", logo: "/logos/javascript.svg" },
+      { label: "Django", logo: "/logos/django.svg" },
+      { label: "ReactJS", logo: "/logos/react.svg" },
+      { label: "Flask", logo: "/logos/flask.svg" },
+    ],
+  },
+  {
     category: "Databases",
     title: "Databases",
     items: [
       { label: "MySQL", logo: "/logos/mysql.svg" },
-      { label: "MongoDB", logo: "/logos/mongodb.svg" },
+      { label: "Oracle SQL", logo: "/logos/oracle.svg" },
+      { label: "PostgresSQL", logo: "/logos/postgressql.svg" },
+      { label: "SQLite3", logo: "/logos/sqlite.svg" },
+      { label: "Amazon RDS", logo: "/logos/rds.svg" },
+      { label: "Amazon DynamoDB", logo: "/logos/dynamodb.svg" },
 
       
+    ],
+  },
+  {
+    category: "Libraries",
+    title: "Libraries",
+    items: [
+      { label: "Numpy", logo: "/logos/numpy.svg" },
+      { label: "Pandas", logo: "/logos/pandas.svg" },
+      { label: "Matplotlib", logo: "/logos/matplotlib.svg" },
+      { label: "Plotly", logo: "/logos/plotly.svg" },
+      { label: "OpenCV", logo: "/logos/opencv.svg" },
+      { label: "Tensorflow", logo: "/logos/tensorflow.svg" },
+      { label: "Seaborn", logo: "/logos/seaborn.svg" },
+      { label: "Pytest", logo: "/logos/pytest.svg" },
+      { label: "Pytorch", logo: "/logos/pytorch.svg" },
+      { label: "Pyjokes", logo: "/logos/seaborn.svg" },
     ],
   },
   {
@@ -52,10 +86,15 @@ const skillGroups = [
       { label: "GitHub", logo: "/logos/github.svg" },
       { label: "Vim", logo: "/logos/vim.svg" },
       { label: "Nano", logo: "/logos/nano.svg" },
+      { label: "Putty", logo: "/logos/putty.svg" },
       { label: "Visual Studio Code", logo: "/logos/visual-studio-code.svg" },
       { label: "Jira", logo: "/logos/jira.svg" },
+      { label: "Selenium", logo: "/logos/selenium.svg" },
+      { label: "Powershell", logo: "/logos/powershell.svg" },
       { label: "Linux", logo: "/logos/linux.svg" },
       { label: "Unix", logo: "/logos/unix.svg" },
+      { label: "Debian", logo: "/logos/debian.svg" },
+      { label: "RedHat", logo: "/logos/red-hat.svg" },
       { label: "Windows", logo: "/logos/windows-11.svg" },
     ],
   },
