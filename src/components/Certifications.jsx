@@ -25,7 +25,7 @@ export default function Certifications() {
       url: "https://www.credly.com/badges/ff45cf38-6328-4f00-a5e7-e60a8a5c6086/linked_in_profile",
     },
     {
-      name: "AWS Certified Cloud Practitioner (in-progress)",
+      name: "Salesforce Certified Administrator",
       logo: "/certified_logos/salesforce_admin.png",
       url: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
     },
