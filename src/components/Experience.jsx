@@ -13,10 +13,11 @@ export default function Experience() {
       company: "Omnicom Group",
       duration: "June 2025 – Present",
       points: [
-        "Problem: For a customer in the Farm House Goods industry, a scalable cloud infrastructure was required to support SaaS apps and improve online sales.",
-        "Action: After examining more than fifty use cases with the Team lead, a customised cloud architecture was created to streamline sales procedures.",
-        "Results: Implemented a strong SaaS infrastructure that raised revenue by 40% in the first quarter after deployment and sales by 6.33% in six months.",
-        "Day to Day tasks: Set up and monitoring AWS services for SaaS deployment, such as load balancers, EC2, ECS, and S3.",
+        "Currently working as a QA Engineer at Omnicom, focusing on the quality assurance of digital marketing platforms and enterprise applications.",
+        "Perform both manual and automated testing using tools like Selenium, Postman, JIRA, and TestNG to ensure functionality, performance, and reliability.",
+        "Work in an Agile environment, collaborating with cross-functional teams to deliver high-quality releases.",
+        "Experience with API testing, cross-browser testing, and regression testing across web and mobile platforms.",
+        "Utilize technologies such as Python, Java, Cloud, SQL, Git, CI/CD tools (like Jenkins), and browser developer tools for debugging and validation.",
       ],
     },
     {
@@ -25,9 +26,11 @@ export default function Experience() {
       company: "PearlThought Solutions Pvt Ltd.",
       duration: "June 2024 – June 2025",
       points: [
-        "Issue: It was necessary to maintain a dependable networking backbone and streamlining sales operations.",
-        "Action: Participated in Networking Server management and received training in fundamental network systems, such as switches, routers, and FTTH. Assisted in putting in place a CRM system to cut down on manual labour in sales processes.",
-        "Outcome: A 5% increase in operational efficiency due to a 10% reduction in administrative workload and improved sales team focus.",
+        "Worked as a DevOps Engineer at PearlThought Technologies, supporting the automation and optimization of CI/CD pipelines across multiple projects.",
+        "Managed cloud infrastructure AWS and deployment environments, ensuring scalability, availability, and security.",
+        "Implemented Infrastructure as Code (IaC) using tools like Terraform and Ansible, enabling consistent and repeatable environments.",
+        "Collaborated with development and QA teams to streamline release processes using tools like Jenkins, Docker, Kubernetes, and Git.",
+        "Monitored application performance and system health using Prometheus, Grafana, and ELK stack, contributing to faster issue resolution and system stability.",
       ],
     },
   ];
