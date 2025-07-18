@@ -91,6 +91,7 @@ const skillGroups = [
       { label: "Selenium", logo: "/logos/selenium.svg" },
       { label: "Powershell", logo: "/logos/powershell.svg" },
       { label: "Linux", logo: "/logos/linux.svg" },
+      { label: "Ubuntu", logo: "/logos/ubuntu.svg" },
       { label: "Unix", logo: "/logos/unix.svg" },
       { label: "Debian", logo: "/logos/debian.svg" },
       { label: "RedHat", logo: "/logos/red-hat.svg" },
