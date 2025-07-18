@@ -11,71 +11,73 @@ export default function Projects() {
       title: "College ERP System",
       github: "https://github.com/KiranKumarMalik/College-ERP",
       details: [
-        "Issue: There were delays and unsanitary conditions as a result of the lack of real-time visibility, prioritisation, and citizen engagement in urban waste collection.",
-        "Take action: Created a full-stack web application that increased citizen participation by 70% by enabling real-time reporting of waste issues with voice, image, and GPS support.",
-        "Created and implemented a TensorFlow (CNN)-based AI-powered waste classifier that identified organic, metal, and glass waste types with 92% accuracy.",
-        "Flask backend was integrated to provide real-time machine learning predictions, and it was linked to a Node.js API layer to facilitate smooth front-end communication.",
-        "65% more efficient report management was achieved by implementing a role-based admin dashboard with Firebase Auth.",
-        "40% waste collection route planning optimisation was achieved by enabling predictive analytics with MongoDB historical data.",
-        "Improved user trust and transparency by introducing complaint escalation and feedback modules with before/after image comparison.",
-        "As a result, automated routing and prioritisation decreased waste overflow incidents by 55% and eliminated the need for manual monitoring by 60%. The platform's near real-time response capabilities allowed it to process over 250 reports during the testing phase.",
+        "A full-stack web-based College Management System designed to digitize and streamline academic and administrative workflows across institutions. The ERP provides role-based dashboards for Admins, Teachers, and Students, and supports real-time data visualization, communication, and academic tracking.",
+        "Separate dashboards and access controls for Admin, Teacher, and Student roles.",
+        "Dynamic dashboard with data visualization for student/staff performance.",
+        "Full CRUD operations for Students, Teachers, Courses, Subjects, Sessions.",
+        "Attendance and leave management with approval workflows.",
+        "Subject-wise performance insights and attendance management.",
+        "Manage exam results, leave requests, and feedback submissions.",
+        "Dashboard displaying real-time attendance and academic data.",
+        "Configured email notifications for password resets and alerts using SMTP (Gmail server setup with Django).",
       ],
       techStack: [
         { name: "HTML5", logo: "/logos/html5.svg" },
         { name: "CSS3", logo: "/logos/css3.svg" },
+        { name: "Bootstrap", logo: "/logos/bootstrap.svg" },
         { name: "JavaScript", logo: "/logos/javascript.svg" },
-        { name: "React.js", logo: "/logos/react.svg" },
-        { name: "Node.js", logo: "/logos/node.js.svg" },
-        { name: "MongoDB", logo: "/logos/mongodb.svg" },
-        { name: "Flask", logo: "/logos/flask.svg" },
-        { name: "TensorFlow", logo: "/logos/tensorflow.svg" },
-        { name: "Keras", logo: "/logos/keras.svg" },
-        { name: "Firebase", logo: "/logos/firebase.svg" },
+        { name: "Django", logo: "/logos/django.svg" },
+        { name: "SQLite3", logo: "/logos/sqlite.svg" },
+        { name: "Python", logo: "/logos/python.svg" },
+        { name: "SMTP", logo: "/logos/smtp.svg" },
       ]
     },
     {
       title: "Doctor Appointment Management System",
       github: "https://github.com/KiranKumarMalik/Doctor-Appointment-System-using-Django-and-gmail-SMTP",
       details: [
-        "Problem: Manual deployments lacked consistency and security validation",
-        "Action: Designed and automated a CI/CD pipeline using Jenkins, integrating SonarQube and Trivy for static and container security scanning.",
-        "Deployed containerized services to AWS EKS using Helm and ArgoCD, achieving 99.9% uptime.",
-        "Set up monitoring via Prometheus & Grafana, reducing incident response time by 50%.",
-        "Automated Docker image builds and Docker Hub pushes to standardize releases.",
-        "Implemented SMTP alerts for failure detection, increasing failure visibility by 30%. ",
-        "Result: Reduced deployment time by 60% and optimized AWS infrastructure, cutting operational costs by 20%."
+        "Developed a full-featured Django-based web application for managing doctor-patient appointments at Kenyatta University Health Centre (KUHC).",
+        "Implemented user registration for Students, Staff, Doctors, and Admins with dynamic roles and permissions.",
+        "Enabled patients to book, cancel, and view appointment statuses (Scheduled, Completed, Failed, etc.) while doctors and admins could manage appointments accordingly.",
+        "Integrated PayStack API for electronic payments using M-Pesa and Visa with secure verification for scheduling appointments.",
+        "Configured SMTP email notifications to alert users on events such as booking, cancelation, and payment confirmation.",
+        "Added OTP-based login for Doctors/Admins to strengthen security with time-sensitive 6-digit verification codes.",
+        "Designed admin features like user activity logging, account activation/deactivation, and report generation for appointments and payments.",
+        "Included partial implementation of Next-of-Kin linking, data analytics dashboards, and downloadable reports for all users.",
       ],
       techStack: [
         // Jenkins, SonarQube, Trivy, Docker, Kubernetes (EKS), Helm, ArgoCD, Prometheus, Grafana, AWS, SMTP, GitHub/GitLab CI
-        { name: "AWS", logo: "/logos/aws.svg" },
-        { name: "Docker", logo: "/logos/docker.svg" },
-        { name: "Kubernetes", logo: "/logos/kubernetes.svg" },
-        { name: "Jenkins", logo: "/logos/jenkins.svg" },
-        { name: "SonarQube", logo: "/logos/sonarqube.svg" },
-        { name: "Trivy", logo: "/logos/trivy.svg" },
-        { name: "Prometheus", logo: "/logos/prometheus.svg" },
-        { name: "Grafana", logo: "/logos/grafana.svg" },
-        { name: "ArgoCD", logo: "/logos/argocd.svg" },
-        { name: "Helm", logo: "/logos/helm.svg" },
+        { name: "HTML5", logo: "/logos/html5.svg" },
+        { name: "CSS3", logo: "/logos/css3.svg" },
+        { name: "Bootstrap", logo: "/logos/bootstrap.svg" },
+        { name: "JavaScript", logo: "/logos/javascript.svg" },
+        { name: "Django", logo: "/logos/django.svg" },
+        { name: "SQLite3", logo: "/logos/sqlite.svg" },
+        { name: "Python", logo: "/logos/python.svg" },
+        { name: "PayStack", logo: "/logos/paystack.svg" },
         { name: "SMTP", logo: "/logos/smtp.svg" },
-        { name: "Git", logo: "/logos/git.svg" },
-        { name: "GitHub", logo: "/logos/github1.svg" },
         
       ]
     },
     {
       title: "Face Recognition with AWS Rekognition",
+      youtube: "https://www.youtube.com/watch?v=3Nj-2mLAb7s",
       github: "https://github.com/KiranKumarMalik/Facial-Recognition-App-using-AWS-rekognition-and-Python",
       details: [
-        "Problem: Existing facial recognition systems were not scalable or cloud-optimized.",
-        "Action: Designed and deployed a secure architecture using AWS Rekognition, S3, Lambda, DynamoDB, and IAM.",
-        "Engineered a high-accuracy model integrated with real-time image analysis and continuous learning workflows.",
-        "Result: Improved recognition accuracy by 15%, reduced latency by 40%, and achieved 99.9% uptime.",
+        "A cloud-based face recognition system leveraging Amazon Rekognition to detect, analyze, and compare human faces for authentication and identification purposes.",
+        "Image Upload & Processing: Users can upload images via a web interface for face detection and matching.",
+        "Uses Lambda for serverless computing and S3 for scalable storage.",
+        "Face Comparison: Matches input images against a stored face collection to verify identity.",
+        "AWS Rekognition Integration: Utilizes Rekognition APIs for face indexing, search, and comparison.",
+        "Real-Time Feedback: Displays matching confidence scores and identified user details.",
+        "Security & Privacy: Handles image data securely using AWS SDK and IAM roles.",
       ],
       techStack: [
+        { name: "Python", logo: "/logos/python.svg" },
         { name: "AWS", logo: "/logos/aws.svg" },
         { name: "AWS DynamoDB", logo: "/logos/dynamodb.svg" },
         { name: "AWS Lambda", logo: "/logos/lambda.svg" },
+        { name: "AWS SDK", logo: "/logos/sdk.svg" },
         { name: "AWS S3", logo: "/logos/s3.svg" },
         { name: "AWS IAM", logo: "/logos/iam.svg" },
         { name: "AWS Rekognition", logo: "/logos/rekognition.svg" },
@@ -99,9 +101,29 @@ export default function Projects() {
         { name: "YAML", logo: "/logos/yaml.svg" },
       ]
     },
+
+    {
+      title: "Build Alexa Personal Assistant",
+      youtube: "https://www.youtube.com/watch?v=5Ljesb4KJ-A",
+      github: "https://github.com/KiranKumarMalik/Build-Alexa-Personal-Assistant-",
+      details: [
+        "A Python-based virtual assistant inspired by Amazon Alexa, designed to understand voice commands and perform a wide range of tasks using speech recognition and automation libraries.",
+        "Voice Recognition: Converts speech to text using SpeechRecognition and processes it in real-time.",
+        "Text-to-Speech: Responds verbally using pyttsx3, making interactions seamless and conversational.",
+        "Task Automation: Search Wikipedia, open websites, play music, and tell the time, Send emails, open applications, fetch weather, and more.",
+        "Wake Word Activation: Listens for a custom wake word to initiate interactions.",
+        "Modular Command Handling: Easily extendable architecture to add more voice commands.",
+        "Libraries: SpeechRecognition, pyttsx3, wikipedia, ecapture, wolframalpha, PyAudio, beautifulsoup4, pyperclip, pyshorteners, PyAutoGUI, Pillow, qrcode, speedtest-cli, librosa , smtplib, datetime, os, webbrowser",
+      ],
+      techStack: [
+        { name: "Python", logo: "/logos/python.svg" },
+        { name: "Python Libraries", logo: "/logos/libraries.png" },
+      ]
+    },
+
     {
         title: "Linux Server setup and configuration",
-        live: "https://madycloud-md.github.io/Book-Review-System/",
+        // live: "https://madycloud-md.github.io/Book-Review-System/",
         github: "https://github.com/KiranKumarMalik/Linux-Server-Setup-Configuration",
         details: [
           "Problem: Traditional book recommendation platforms often lack community engagement, scalability, and personalized insights.",
@@ -177,7 +199,7 @@ export default function Projects() {
                 )}
 
                 {/* Action Links */}
-                {(proj.live || proj.github) && (
+                {(proj.live || proj.youtube || proj.github) && (
                   <div className="mt-6 flex gap-4 flex-wrap">
                     {proj.live && (
                       <a
@@ -196,6 +218,25 @@ export default function Projects() {
                         Live Demo
                       </a>
                     )}
+
+                    {proj.youtube && (
+                      <a
+                        href={proj.youtube}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 text-sm px-4 py-1.5 rounded-full 
+                                  bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium 
+                                  shadow hover:shadow-lg transition-all duration-300"
+                      >
+                        <img
+                          src="/logos/youtube.svg"
+                          alt="YouTube"
+                          className="w-5 h-5 sm:w-6 sm:h-6 object-contain"
+                        />
+                        YouTube
+                      </a>
+                    )}
+                    
 
                     {proj.github && (
                       <a
