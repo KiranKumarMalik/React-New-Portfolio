@@ -35,7 +35,7 @@ export default function Hero() {
     </div>
 
     <p className="mt-5 text-lg text-gray-600 dark:text-gray-300">
-        Specializing in AWS, Kubernetes, CI/CD automation, and secure SaaS deployment for scalable businesses.
+        Specializing in Python, AWS, Kubernetes, CI/CD automation, and secure SaaS deployment for scalable businesses.
     </p>
 
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">
