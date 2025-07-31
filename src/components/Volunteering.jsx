@@ -15,7 +15,7 @@ export default function Volunteering() {
     },
     {
       title: "SIH 2022 Volunteer",
-      description: "Led planning and logistics for college-wide events, managing other volunteers."
+      description: "Smart India Hackathon 2022 volunteer, assisting in the smooth execution of the event."
     }
   ];
 
