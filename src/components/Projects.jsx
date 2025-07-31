@@ -136,13 +136,10 @@ export default function Projects() {
           "Result: Improved reader decision-making and increased engagement by creating a virtual space for 100+ early users to review, rate, and discuss books. System supports real-time feedback, helping authors gain exposure and readers build trusted recommendations."
         ],
         techStack: [
-          { name: "HTML5", logo: "/logos/html5.svg" },
-          { name: "CSS3", logo: "/logos/css3.svg" },
-          { name: "JavaScript", logo: "/logos/javascript.svg" },
           { name: "Firebase", logo: "/logos/firebase.svg" },
           { name: "AWS", logo: "/logos/aws.svg" },
           { name: "GitHub Pages", logo: "/logos/github.svg" },
-          
+          { name: "Linux", logo: "/logos/linux.svg" },
         ]
       }
   ];

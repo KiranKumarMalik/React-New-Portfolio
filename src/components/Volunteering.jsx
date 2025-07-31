@@ -6,15 +6,15 @@ export default function Volunteering() {
 
   const roles = [
     {
-      title: "Placement Coordinator",
+      title: "GeeksforGeeks Problem-Solving Hackathon 2023",
       description: "Guided 100+ students with resume reviews, mock interviews, and placement training."
     },
     {
-      title: "Cybersecurity Workshop Support",
+      title: "KAVACH Hackathon Organizer 2023",
       description: "Helped organize and manage a workshop attended by over 200+ students."
     },
     {
-      title: "Event Organizer – Tech & Cultural Fests",
+      title: "SIH 2022 Volunteer",
       description: "Led planning and logistics for college-wide events, managing other volunteers."
     }
   ];
