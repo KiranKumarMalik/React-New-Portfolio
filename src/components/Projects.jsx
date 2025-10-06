@@ -46,7 +46,7 @@ export default function Projects() {
         "Included partial implementation of Next-of-Kin linking, data analytics dashboards, and downloadable reports for all users.",
       ],
       techStack: [
-        // Jenkins, SonarQube, Trivy, Docker, Kubernetes (EKS), Helm, ArgoCD, Prometheus, Grafana, AWS, SMTP, GitHub/GitLab CI
+        // HTML5, CSS3, Bootstrap, Javascript, Django, SQLite3, Python, PayStack Payment Gateway
         { name: "HTML5", logo: "/logos/html5.svg" },
         { name: "CSS3", logo: "/logos/css3.svg" },
         { name: "Bootstrap", logo: "/logos/bootstrap.svg" },
@@ -93,7 +93,7 @@ export default function Projects() {
         "Configured Docker images and automated environment provisioning for seamless CI/CD integration.",
         "Result: Achieved 40% faster deployments, reduced manual provisioning by 50%, and maintained 99.8% uptime.",
       ],
-      // Tech Stack: Docker, AWS Elastic Beanstalk, EC2, CI/CD (GitHub Actions/GitLab CI), YAML, CloudWatch, AWS CLI
+      // Docker, AWS, YAML
       techStack: [
         { name: "Docker", logo: "/logos/docker.svg" },
         { name: "AWS EC2", logo: "/logos/ec2.svg" },
