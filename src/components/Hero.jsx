@@ -19,13 +19,9 @@ export default function Hero() {
     <div className="mt-2 text-2xl font-semibold text-gray-800 dark:text-gray-200 h-10">
       <TypeAnimation
         sequence={[
-          'QA Engineer @Omnicom',
+          'Cloud Engineer @Volksara',
           2000,
-          'Ex-DevOps Engineer',
-          2000,
-          'AWS & Azure Certified',
-          2000,
-          'Cloud Enthusiast',
+          'Ex-Software Engineer',
           2000,
         ]}
         wrapper="span"
@@ -35,7 +31,7 @@ export default function Hero() {
     </div>
 
     <p className="mt-5 text-lg text-gray-600 dark:text-gray-300">
-        Specializing in Python, AWS DevOps, Kubernetes, CI/CD automation, and secure SaaS deployment for scalable businesses.
+        Specializing in Python, Multi Cloud (AWS • Azure • GCP), Docker, Kubernetes, Terraform, CI/CD automation, AI Monitoring, Observability with Grafana & Prometheus, Cloud Security, AI Workflow Integration and secure SaaS deployment for scalable businesses.
     </p>
 
     <div className="mt-6 flex gap-5 justify-center md:justify-start text-xl">

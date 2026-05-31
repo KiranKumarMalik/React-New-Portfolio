@@ -1,17 +1,17 @@
 import React from 'react';
 import useScrollFadeIn from '../utils/useScrollFadeIn';
 
-import omnicom from './assets/omnicom.png';
-import pearlthought from './assets/pearl.jpeg';
+import volksara from './assets/volksara.png';
+import xobit from './assets/xobit.jpeg';
 
 export default function Experience() {
   const fade = useScrollFadeIn();
   const experiences = [
     {
-      companylogo: omnicom,
-      role: "QA Engineer",
-      company: "Omnicom Group",
-      duration: "June 2025 – Present",
+      companylogo: volksara,
+      role: "Cloud Engineer",
+      company: "Volksara Techno Solutions Pvt Ltd.",
+      duration: "Jan 2026 – Present",
       points: [
         "Currently working as a QA Engineer at Omnicom, focusing on the quality assurance of digital marketing platforms and enterprise applications.",
         "Perform both manual and automated testing using tools like Selenium, Postman, JIRA, and TestNG to ensure functionality, performance, and reliability.",
@@ -21,10 +21,10 @@ export default function Experience() {
       ],
     },
     {
-      companylogo: pearlthought,
-      role: "DevOps Engineer",
-      company: "PearlThought Solutions Pvt Ltd.",
-      duration: "June 2024 – June 2025",
+      companylogo: xobit,
+      role: "Software Engineer",
+      company: "XOBIT Technologies Pvt Ltd.",
+      duration: "Nov 2024 – Nov 2025",
       points: [
         "Worked as a DevOps Engineer at PearlThought Technologies, supporting the automation and optimization of CI/CD pipelines across multiple projects.",
         "Managed cloud infrastructure AWS and deployment environments, ensuring scalability, availability, and security.",
